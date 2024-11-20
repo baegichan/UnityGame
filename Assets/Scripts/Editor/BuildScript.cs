@@ -9,7 +9,7 @@ class BuildScript
 
     static void Build()
     {
-        BuildPipeline.BuildPlayer(FindEnabledEditorScenes(), "C:/BUILD/MyGame.exe", BuildTarget.StandaloneWindows, BuildOptions.None);
+        BuildPipeline.BuildPlayer(FindEnabledEditorScenes(), "C:/BUILD/Game.exe", BuildTarget.StandaloneWindows, BuildOptions.None);
     }
     private static string[] FindEnabledEditorScenes()
     {
